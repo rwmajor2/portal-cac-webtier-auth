@@ -26,7 +26,7 @@ public class CACWebAdaptorFilterWrapper extends HttpServletRequestWrapper{
 			cn = cn.substring(0, 26);
 		}
 		String username = cn;
-		log.log(Level.SEVERE, "**** CAC Filter:  " + cn);
+		log.log(Level.INFO, "**** CAC Filter:  " + cn);
 		return username;
 	}
 	
